@@ -4,6 +4,6 @@ data$DataTime <- strptime(paste(data$Date, data$Time), "%d/%m/%Y %H:%M:%S")
 data$Global_active_power = as.character(data$Global_active_power)
 data$Global_active_power = as.numeric(data$Global_active_power)
 
-png("plot1.png")
+png("plot1.png", width = 480, height = 480, units = "px")
 plot1 <- hist(data$Global_active_power, col = "red", main = "Global Active Power", xlab = "Global Active Power (kilowatts)")
 dev.off()
