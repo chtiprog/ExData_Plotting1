@@ -1,3 +1,8 @@
+## Prerequisite
+
+You will find the data needed to execute the script zipped in the main folder (household_power_consumption.txt.bz2)
+PLEASE unzip this file before execute the four scripts
+
 ## Introduction
 
 This assignment uses data from
