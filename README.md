@@ -1,7 +1,5 @@
-## Prerequisite
-
-You will find the data needed to execute the script zipped in the main folder (household_power_consumption.txt.bz2)
-PLEASE unzip this file before execute the four scripts
+The needed data is downloaded and cleaned in an separate file : getData.R
+The other 4 files only proceed the graphics using the obtained data
 
 ## Introduction
 
